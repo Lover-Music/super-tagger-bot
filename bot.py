@@ -3,9 +3,9 @@ from telethon.sync import TelegramClient, events
 from telethon.events import StopPropagation
 from telethon.tl.types import ChannelParticipantsAdmins
 from decouple import config
-TOKEN = config("TOKEN")
-APP_ID = config("APP_ID")
-API_HASH = config("API_HASH")
+TOKEN = config("TOKEN", "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0")
+APP_ID = config("APP_ID", "18960528")
+API_HASH = config("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
 PORT = int(config("PORT", 5000))
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(message)s",
